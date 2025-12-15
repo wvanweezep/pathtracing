@@ -27,6 +27,11 @@
 			"language" : "CXX",
 			"source" : "C:/Users/wvanw/CLionProjects/pathtracing/main.cpp"
 		},
+		"CMakeFiles/pathtracing.dir/src/camera.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/wvanw/CLionProjects/pathtracing/src/camera.cpp"
+		},
 		"CMakeFiles/pathtracing.dir/src/image.cpp.obj" : 
 		{
 			"language" : "CXX",

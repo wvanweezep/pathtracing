@@ -85,7 +85,25 @@ build CMakeFiles\pathtracing.dir\src\image.cpp.obj: CXX_COMPILER__pathtracing_sc
   TARGET_PDB = pathtracing.pdb
   dyndep = CMakeFiles/pathtracing.dir/CXX.dd
 
-build CMakeFiles\pathtracing.dir\CXX.dd | C$:\Users\wvanw\CLionProjects\pathtracing\cmake-build-debug\CMakeFiles\pathtracing.dir\CXXModules.json CMakeFiles\pathtracing.dir\main.cpp.obj.modmap CMakeFiles\pathtracing.dir\src\image.cpp.obj.modmap: CXX_DYNDEP__pathtracing_Debug CMakeFiles\pathtracing.dir\main.cpp.obj.ddi CMakeFiles\pathtracing.dir\src\image.cpp.obj.ddi | C$:\Users\wvanw\CLionProjects\pathtracing\cmake-build-debug\CMakeFiles\pathtracing.dir\CXXDependInfo.json
+build CMakeFiles\pathtracing.dir\src\camera.cpp.obj.ddi: CXX_SCAN__pathtracing_Debug C$:\Users\wvanw\CLionProjects\pathtracing\src\camera.cpp || cmake_object_order_depends_target_pathtracing
+  DEP_FILE = CMakeFiles\pathtracing.dir\src\camera.cpp.obj.ddi.d
+  DYNDEP_INTERMEDIATE_FILE = CMakeFiles\pathtracing.dir\src\camera.cpp.obj.ddi
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi
+  INCLUDES = -IC:\Users\wvanw\CLionProjects\pathtracing\external\glm -IC:\Users\wvanw\CLionProjects\pathtracing\include
+  OBJ_FILE = CMakeFiles\pathtracing.dir\src\camera.cpp.obj
+  PREPROCESSED_OUTPUT_FILE = CMakeFiles\pathtracing.dir\src\camera.cpp.obj.ddi.i
+
+build CMakeFiles\pathtracing.dir\src\camera.cpp.obj: CXX_COMPILER__pathtracing_scanned_Debug C$:\Users\wvanw\CLionProjects\pathtracing\src\camera.cpp | CMakeFiles\pathtracing.dir\src\camera.cpp.obj.modmap || cmake_object_order_depends_target_pathtracing CMakeFiles\pathtracing.dir\CXX.dd
+  DYNDEP_MODULE_MAP_FILE = CMakeFiles\pathtracing.dir\src\camera.cpp.obj.modmap
+  FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi
+  INCLUDES = -IC:\Users\wvanw\CLionProjects\pathtracing\external\glm -IC:\Users\wvanw\CLionProjects\pathtracing\include
+  OBJECT_DIR = CMakeFiles\pathtracing.dir
+  OBJECT_FILE_DIR = CMakeFiles\pathtracing.dir\src
+  TARGET_COMPILE_PDB = CMakeFiles\pathtracing.dir\
+  TARGET_PDB = pathtracing.pdb
+  dyndep = CMakeFiles/pathtracing.dir/CXX.dd
+
+build CMakeFiles\pathtracing.dir\CXX.dd | C$:\Users\wvanw\CLionProjects\pathtracing\cmake-build-debug\CMakeFiles\pathtracing.dir\CXXModules.json CMakeFiles\pathtracing.dir\main.cpp.obj.modmap CMakeFiles\pathtracing.dir\src\image.cpp.obj.modmap CMakeFiles\pathtracing.dir\src\camera.cpp.obj.modmap: CXX_DYNDEP__pathtracing_Debug CMakeFiles\pathtracing.dir\main.cpp.obj.ddi CMakeFiles\pathtracing.dir\src\image.cpp.obj.ddi CMakeFiles\pathtracing.dir\src\camera.cpp.obj.ddi | C$:\Users\wvanw\CLionProjects\pathtracing\cmake-build-debug\CMakeFiles\pathtracing.dir\CXXDependInfo.json
 
 
 # =============================================================================
@@ -95,7 +113,7 @@ build CMakeFiles\pathtracing.dir\CXX.dd | C$:\Users\wvanw\CLionProjects\pathtrac
 #############################################
 # Link the executable pathtracing.exe
 
-build pathtracing.exe: CXX_EXECUTABLE_LINKER__pathtracing_Debug CMakeFiles\pathtracing.dir\main.cpp.obj CMakeFiles\pathtracing.dir\src\image.cpp.obj
+build pathtracing.exe: CXX_EXECUTABLE_LINKER__pathtracing_Debug CMakeFiles\pathtracing.dir\main.cpp.obj CMakeFiles\pathtracing.dir\src\image.cpp.obj CMakeFiles\pathtracing.dir\src\camera.cpp.obj
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -MDd -Zi
   LINK_FLAGS = /machine:x64 /debug /INCREMENTAL /subsystem:console
   LINK_LIBRARIES = kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib
