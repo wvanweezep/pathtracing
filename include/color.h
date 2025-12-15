@@ -4,6 +4,7 @@
 #include <glm/glm.hpp>
 #include <glm/vec4.hpp>
 
+
 struct Color {
     glm::vec4 rgba{0.0f, 0.0f, 0.0f, 1.0f};
 
@@ -16,7 +17,23 @@ struct Color {
         : rgba(glm::clamp(rgb, 0.0f, 1.0f), glm::clamp(a, 0.0f, 1.0f)) {}
 
     explicit constexpr Color(const glm::vec4& rgba)
-    : rgba(glm::clamp(rgba, 0.0f, 1.0f)) {}
+        : rgba(glm::clamp(rgba, 0.0f, 1.0f)) {}
+
+    [[nodiscard]] float r() const {
+        return rgba.x;
+    }
+
+    [[nodiscard]] float g() const {
+        return rgba.y;
+    }
+
+    [[nodiscard]] float b() const {
+        return rgba.z;
+    }
+
+    [[nodiscard]] float a() const {
+        return rgba.w;
+    }
 };
 
 #endif //COLOR_H
