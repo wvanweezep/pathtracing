@@ -23,3 +23,17 @@
 111	126	7875300004005764	CMakeFiles/pathtracing.dir/src/image.cpp.obj.modmap	d7f65ad4300ee8d
 126	810	7875300004163226	CMakeFiles/pathtracing.dir/src/image.cpp.obj	55eefe243b1c0004
 810	891	7875300010993006	pathtracing.exe	92009087d0f5612a
+20	120	7875306347438746	CMakeFiles/pathtracing.dir/main.cpp.obj.ddi	aac7930cec9eaef2
+121	137	7875306348449098	CMakeFiles/pathtracing.dir/CXX.dd	d7f65ad4300ee8d
+121	137	7875306348449098	C:/Users/wvanw/CLionProjects/pathtracing/cmake-build-debug/CMakeFiles/pathtracing.dir/CXXModules.json	d7f65ad4300ee8d
+121	137	7875306348449098	CMakeFiles/pathtracing.dir/main.cpp.obj.modmap	d7f65ad4300ee8d
+121	137	7875306348449098	CMakeFiles/pathtracing.dir/src/image.cpp.obj.modmap	d7f65ad4300ee8d
+137	1066	7875306348612469	CMakeFiles/pathtracing.dir/main.cpp.obj	9f9a56103e4a9157
+1066	1148	7875306357898072	pathtracing.exe	92009087d0f5612a
+17	122	7875306524948251	CMakeFiles/pathtracing.dir/main.cpp.obj.ddi	aac7930cec9eaef2
+123	138	7875306526003737	CMakeFiles/pathtracing.dir/CXX.dd	d7f65ad4300ee8d
+123	138	7875306526003737	C:/Users/wvanw/CLionProjects/pathtracing/cmake-build-debug/CMakeFiles/pathtracing.dir/CXXModules.json	d7f65ad4300ee8d
+123	138	7875306526003737	CMakeFiles/pathtracing.dir/main.cpp.obj.modmap	d7f65ad4300ee8d
+123	138	7875306526003737	CMakeFiles/pathtracing.dir/src/image.cpp.obj.modmap	d7f65ad4300ee8d
+139	814	7875306526161529	CMakeFiles/pathtracing.dir/main.cpp.obj	9f9a56103e4a9157
+814	924	7875306532910500	pathtracing.exe	92009087d0f5612a
