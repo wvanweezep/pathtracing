@@ -1,0 +1,3 @@
+C:/Users/wvanw/CLionProjects/pathtracing/cmake-build-debug/CMakeFiles/pathtracing.dir
+C:/Users/wvanw/CLionProjects/pathtracing/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/wvanw/CLionProjects/pathtracing/cmake-build-debug/CMakeFiles/rebuild_cache.dir

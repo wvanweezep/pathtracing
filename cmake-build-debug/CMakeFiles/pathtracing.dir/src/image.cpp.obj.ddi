@@ -1,0 +1,14 @@
+{
+    "version": 1,
+    "revision": 0,
+    "rules": [
+        {
+            "primary-output": "CMakeFiles\\pathtracing.dir\\src\\image.cpp.obj",
+            "outputs": [
+                "C:\\Users\\wvanw\\CLionProjects\\pathtracing\\cmake-build-debug\\vc140.pdb",
+                "CMakeFiles\\pathtracing.dir\\src\\image.cpp.obj.ddi"
+            ],
+            "requires": []
+        }
+    ]
+}

@@ -1,0 +1,18 @@
+# ninja log v6
+10	102	7875272168462730	build.ninja	2635e3d5bddbd376
+92	119	7875222739012403	CMakeFiles/pathtracing.dir/main.cpp.obj.modmap	d152ac534a64d827
+18	92	7875222738030910	CMakeFiles/pathtracing.dir/main.cpp.obj.ddi	350398b3d28fda68
+92	119	7875222739012403	CMakeFiles/pathtracing.dir/CXX.dd	d152ac534a64d827
+92	119	7875222739012403	C:/Users/wvanw/CLionProjects/pathtracing/cmake-build-debug/CMakeFiles/pathtracing.dir/CXXModules.json	d152ac534a64d827
+124	586	7875222739087004	CMakeFiles/pathtracing.dir/main.cpp.obj	76768e8acb15ad60
+586	765	7875222743701310	pathtracing.exe	a414a3d3bc751c7e
+10	110	7875272168462730	build.ninja	2635e3d5bddbd376
+18	106	7875272169252215	CMakeFiles/pathtracing.dir/src/image.cpp.obj.ddi	ecc1f45f0b17248a
+16	121	7875272169232178	CMakeFiles/pathtracing.dir/main.cpp.obj.ddi	aac7930cec9eaef2
+121	161	7875272170285370	CMakeFiles/pathtracing.dir/CXX.dd	d7f65ad4300ee8d
+121	161	7875272170285370	C:/Users/wvanw/CLionProjects/pathtracing/cmake-build-debug/CMakeFiles/pathtracing.dir/CXXModules.json	d7f65ad4300ee8d
+121	161	7875272170285370	CMakeFiles/pathtracing.dir/main.cpp.obj.modmap	d7f65ad4300ee8d
+121	161	7875272170285370	CMakeFiles/pathtracing.dir/src/image.cpp.obj.modmap	d7f65ad4300ee8d
+166	904	7875272170742497	CMakeFiles/pathtracing.dir/src/image.cpp.obj	55eefe243b1c0004
+165	1135	7875272170721524	CMakeFiles/pathtracing.dir/main.cpp.obj	9f9a56103e4a9157
+1135	1266	7875272180426653	pathtracing.exe	92009087d0f5612a

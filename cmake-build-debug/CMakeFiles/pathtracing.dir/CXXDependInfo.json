@@ -1,0 +1,36 @@
+{
+	"bmi-installation" : null,
+	"compiler-frontend-variant" : "MSVC",
+	"compiler-id" : "MSVC",
+	"compiler-simulate-id" : "",
+	"config" : "Debug",
+	"cxx-modules" : {},
+	"database-info" : null,
+	"dir-cur-bld" : "C:/Users/wvanw/CLionProjects/pathtracing/cmake-build-debug",
+	"dir-cur-src" : "C:/Users/wvanw/CLionProjects/pathtracing",
+	"dir-top-bld" : "C:/Users/wvanw/CLionProjects/pathtracing/cmake-build-debug",
+	"dir-top-src" : "C:/Users/wvanw/CLionProjects/pathtracing",
+	"exports" : [],
+	"forward-modules-from-target-dirs" : [],
+	"include-dirs" : 
+	[
+		"C:\\Users\\wvanw\\CLionProjects\\pathtracing\\external\\glm",
+		"C:\\Users\\wvanw\\CLionProjects\\pathtracing\\include"
+	],
+	"language" : "CXX",
+	"linked-target-dirs" : [],
+	"module-dir" : "C:/Users/wvanw/CLionProjects/pathtracing/cmake-build-debug/CMakeFiles/pathtracing.dir",
+	"sources" : 
+	{
+		"CMakeFiles/pathtracing.dir/main.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/wvanw/CLionProjects/pathtracing/main.cpp"
+		},
+		"CMakeFiles/pathtracing.dir/src/image.cpp.obj" : 
+		{
+			"language" : "CXX",
+			"source" : "C:/Users/wvanw/CLionProjects/pathtracing/src/image.cpp"
+		}
+	}
+}
