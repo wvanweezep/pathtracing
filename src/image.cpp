@@ -11,7 +11,7 @@ void Image::writeToPPM(const std::string& path) const {
     std::cout << "Writing Image...\n";
     for (int y = 0; y < size.y; y++) {
         for (int x = 0; x < size.x; x++) {
-            glm::vec4 c = glm::clamp(pixels[y * size.x + x].rgba * 255.0f, 0.0f, 255.0f);
+            const glm::vec4 c = glm::clamp(pixels[y * size.x + x].rgba * 255.0f, 0.0f, 255.0f);
             file << static_cast<int>(c.r) << ' ' << static_cast<int>(c.g) << ' ' << static_cast<int>(c.b) << ' ';
         }
     }
