@@ -1,8 +1,8 @@
 #ifndef CAMERA_H
 #define CAMERA_H
 
-#include "color.h"
-#include "ray.h"
+#include "graphics/color.h"
+#include "util/ray.h"
 #include "glm/vec2.hpp"
 #include "glm/vec3.hpp"
 
@@ -27,7 +27,7 @@ public:
     [[nodiscard]] Ray pixelToRay(int x, int y) const;
 
     // Skybox
-    [[nodiscard]] Color rayToColor(const Ray &ray);
+    [[nodiscard]] static Color rayToColor(const Ray &ray) ;
 };
 
 #endif //CAMERA_H

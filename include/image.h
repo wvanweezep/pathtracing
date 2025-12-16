@@ -1,33 +1,38 @@
-#ifndef IMAGE_H
-#define IMAGE_H
+#pragma once
 
 #include <string>
 #include <vector>
 
-#include "color.h"
+#include "graphics/color.h"
 #include "glm/vec2.hpp"
 
 
 class Image {
-    const glm::ivec2 size;
-    std::vector<Color> pixels;
+    const glm::ivec2 _size;
+    std::vector<Color> _pixels;
 
 public:
-    Image(int width, int height) : size(width, height), pixels(width * height) {}
+    Image(int width, int height) : _size(width, height), _pixels(width * height) {}
 
-    [[nodiscard]] glm::ivec2 getSize() const {
-        return size;
+    [[nodiscard]] glm::ivec2 size() const {
+        return _size;
+    }
+
+    [[nodiscard]] int width() const {
+        return _size.x;
+    }
+
+    [[nodiscard]] int height() const {
+        return _size.y;
     }
 
     [[nodiscard]] Color getPixel(int x, int y) const {
-        return pixels[y * size.x + x];
+        return _pixels[y * _size.x + x];
     }
 
     void setPixel(int x, int y, const Color& color) {
-        pixels[y * size.x + x] = color;
+        _pixels[y * _size.x + x] = color;
     }
 
     void writeToPPM(const std::string& path) const;
 };
-
-#endif //IMAGE_H

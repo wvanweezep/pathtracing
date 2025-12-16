@@ -5,3 +5,5 @@ build CMakeFiles\pathtracing.dir\src\image.cpp.obj: dyndep
 
 build CMakeFiles\pathtracing.dir\src\camera.cpp.obj: dyndep
 
+build CMakeFiles\pathtracing.dir\src\scene.cpp.obj: dyndep
+

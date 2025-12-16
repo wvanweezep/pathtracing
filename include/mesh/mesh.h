@@ -1,7 +1,7 @@
 #ifndef MESH_H
 #define MESH_H
 
-#include "../ray.h"
+#include "../util/ray.h"
 #include "glm/vec3.hpp"
 
 
