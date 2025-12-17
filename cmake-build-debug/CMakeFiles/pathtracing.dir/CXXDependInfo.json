@@ -15,6 +15,7 @@
 	"include-dirs" : 
 	[
 		"C:\\Users\\wvanw\\CLionProjects\\pathtracing\\external\\glm",
+		"C:\\Users\\wvanw\\CLionProjects\\pathtracing\\external\\stb",
 		"C:\\Users\\wvanw\\CLionProjects\\pathtracing\\include"
 	],
 	"language" : "CXX",

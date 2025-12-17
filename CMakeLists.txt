@@ -10,4 +10,5 @@ add_executable(pathtracing main.cpp
 
 target_include_directories(pathtracing PRIVATE
         external/glm
+        external/stb
         include)

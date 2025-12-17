@@ -1,5 +1,7 @@
 #include "camera.h"
 
+# define M_PI           3.14159265358979323846
+
 void Camera::initialize() {
     constexpr float viewport_height = 2.0f;
     const float viewport_width = viewport_height * (static_cast<float>(size.x) / static_cast<float>(size.y));
@@ -15,12 +17,15 @@ void Camera::initialize() {
 Ray Camera::pixelToRay(int x, int y) const {
     const auto pixelCenter = topLeft + pixelDeltaX * static_cast<float>(x)
         + pixelDeltaY * static_cast<float>(y);
-    return Ray(position, pixelCenter - position);
+    return {position, pixelCenter - position};
 }
 
-Color Camera::rayToColor(const Ray &ray) {
+Color Camera::rayToColor(const Ray &ray) const {
     const glm::vec3 normalDir = normalize(ray.direction());
-    const float a = 0.5f * (normalDir.y + 1.0f);
-    return Color((1.0f - a) * glm::vec3(1.0f, 1.0f, 1.0f) + a * glm::vec3(0.3f, 0.6f, 1.0f));
+    const float u = 0.5f + static_cast<float>(atan2(normalDir.z, normalDir.x) / (2.0f * M_PI));
+    const float v = 0.5f - static_cast<float>(asin(normalDir.y) / M_PI);
+    return hdri.getPixel(
+        static_cast<int>(u * static_cast<float>(hdri.width())),
+        static_cast<int>(v * static_cast<float>(hdri.height())));
 }
 

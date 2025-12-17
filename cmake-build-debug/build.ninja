@@ -53,14 +53,14 @@ build CMakeFiles\pathtracing.dir\main.cpp.obj.ddi: CXX_SCAN__pathtracing_Debug C
   DEP_FILE = CMakeFiles\pathtracing.dir\main.cpp.obj.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles\pathtracing.dir\main.cpp.obj.ddi
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi
-  INCLUDES = -IC:\Users\wvanw\CLionProjects\pathtracing\external\glm -IC:\Users\wvanw\CLionProjects\pathtracing\include
+  INCLUDES = -IC:\Users\wvanw\CLionProjects\pathtracing\external\glm -IC:\Users\wvanw\CLionProjects\pathtracing\external\stb -IC:\Users\wvanw\CLionProjects\pathtracing\include
   OBJ_FILE = CMakeFiles\pathtracing.dir\main.cpp.obj
   PREPROCESSED_OUTPUT_FILE = CMakeFiles\pathtracing.dir\main.cpp.obj.ddi.i
 
 build CMakeFiles\pathtracing.dir\main.cpp.obj: CXX_COMPILER__pathtracing_scanned_Debug C$:\Users\wvanw\CLionProjects\pathtracing\main.cpp | CMakeFiles\pathtracing.dir\main.cpp.obj.modmap || cmake_object_order_depends_target_pathtracing CMakeFiles\pathtracing.dir\CXX.dd
   DYNDEP_MODULE_MAP_FILE = CMakeFiles\pathtracing.dir\main.cpp.obj.modmap
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi
-  INCLUDES = -IC:\Users\wvanw\CLionProjects\pathtracing\external\glm -IC:\Users\wvanw\CLionProjects\pathtracing\include
+  INCLUDES = -IC:\Users\wvanw\CLionProjects\pathtracing\external\glm -IC:\Users\wvanw\CLionProjects\pathtracing\external\stb -IC:\Users\wvanw\CLionProjects\pathtracing\include
   OBJECT_DIR = CMakeFiles\pathtracing.dir
   OBJECT_FILE_DIR = CMakeFiles\pathtracing.dir
   TARGET_COMPILE_PDB = CMakeFiles\pathtracing.dir\
@@ -71,14 +71,14 @@ build CMakeFiles\pathtracing.dir\src\image.cpp.obj.ddi: CXX_SCAN__pathtracing_De
   DEP_FILE = CMakeFiles\pathtracing.dir\src\image.cpp.obj.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles\pathtracing.dir\src\image.cpp.obj.ddi
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi
-  INCLUDES = -IC:\Users\wvanw\CLionProjects\pathtracing\external\glm -IC:\Users\wvanw\CLionProjects\pathtracing\include
+  INCLUDES = -IC:\Users\wvanw\CLionProjects\pathtracing\external\glm -IC:\Users\wvanw\CLionProjects\pathtracing\external\stb -IC:\Users\wvanw\CLionProjects\pathtracing\include
   OBJ_FILE = CMakeFiles\pathtracing.dir\src\image.cpp.obj
   PREPROCESSED_OUTPUT_FILE = CMakeFiles\pathtracing.dir\src\image.cpp.obj.ddi.i
 
 build CMakeFiles\pathtracing.dir\src\image.cpp.obj: CXX_COMPILER__pathtracing_scanned_Debug C$:\Users\wvanw\CLionProjects\pathtracing\src\image.cpp | CMakeFiles\pathtracing.dir\src\image.cpp.obj.modmap || cmake_object_order_depends_target_pathtracing CMakeFiles\pathtracing.dir\CXX.dd
   DYNDEP_MODULE_MAP_FILE = CMakeFiles\pathtracing.dir\src\image.cpp.obj.modmap
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi
-  INCLUDES = -IC:\Users\wvanw\CLionProjects\pathtracing\external\glm -IC:\Users\wvanw\CLionProjects\pathtracing\include
+  INCLUDES = -IC:\Users\wvanw\CLionProjects\pathtracing\external\glm -IC:\Users\wvanw\CLionProjects\pathtracing\external\stb -IC:\Users\wvanw\CLionProjects\pathtracing\include
   OBJECT_DIR = CMakeFiles\pathtracing.dir
   OBJECT_FILE_DIR = CMakeFiles\pathtracing.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\pathtracing.dir\
@@ -89,14 +89,14 @@ build CMakeFiles\pathtracing.dir\src\camera.cpp.obj.ddi: CXX_SCAN__pathtracing_D
   DEP_FILE = CMakeFiles\pathtracing.dir\src\camera.cpp.obj.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles\pathtracing.dir\src\camera.cpp.obj.ddi
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi
-  INCLUDES = -IC:\Users\wvanw\CLionProjects\pathtracing\external\glm -IC:\Users\wvanw\CLionProjects\pathtracing\include
+  INCLUDES = -IC:\Users\wvanw\CLionProjects\pathtracing\external\glm -IC:\Users\wvanw\CLionProjects\pathtracing\external\stb -IC:\Users\wvanw\CLionProjects\pathtracing\include
   OBJ_FILE = CMakeFiles\pathtracing.dir\src\camera.cpp.obj
   PREPROCESSED_OUTPUT_FILE = CMakeFiles\pathtracing.dir\src\camera.cpp.obj.ddi.i
 
 build CMakeFiles\pathtracing.dir\src\camera.cpp.obj: CXX_COMPILER__pathtracing_scanned_Debug C$:\Users\wvanw\CLionProjects\pathtracing\src\camera.cpp | CMakeFiles\pathtracing.dir\src\camera.cpp.obj.modmap || cmake_object_order_depends_target_pathtracing CMakeFiles\pathtracing.dir\CXX.dd
   DYNDEP_MODULE_MAP_FILE = CMakeFiles\pathtracing.dir\src\camera.cpp.obj.modmap
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi
-  INCLUDES = -IC:\Users\wvanw\CLionProjects\pathtracing\external\glm -IC:\Users\wvanw\CLionProjects\pathtracing\include
+  INCLUDES = -IC:\Users\wvanw\CLionProjects\pathtracing\external\glm -IC:\Users\wvanw\CLionProjects\pathtracing\external\stb -IC:\Users\wvanw\CLionProjects\pathtracing\include
   OBJECT_DIR = CMakeFiles\pathtracing.dir
   OBJECT_FILE_DIR = CMakeFiles\pathtracing.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\pathtracing.dir\
@@ -107,14 +107,14 @@ build CMakeFiles\pathtracing.dir\src\scene.cpp.obj.ddi: CXX_SCAN__pathtracing_De
   DEP_FILE = CMakeFiles\pathtracing.dir\src\scene.cpp.obj.ddi.d
   DYNDEP_INTERMEDIATE_FILE = CMakeFiles\pathtracing.dir\src\scene.cpp.obj.ddi
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi
-  INCLUDES = -IC:\Users\wvanw\CLionProjects\pathtracing\external\glm -IC:\Users\wvanw\CLionProjects\pathtracing\include
+  INCLUDES = -IC:\Users\wvanw\CLionProjects\pathtracing\external\glm -IC:\Users\wvanw\CLionProjects\pathtracing\external\stb -IC:\Users\wvanw\CLionProjects\pathtracing\include
   OBJ_FILE = CMakeFiles\pathtracing.dir\src\scene.cpp.obj
   PREPROCESSED_OUTPUT_FILE = CMakeFiles\pathtracing.dir\src\scene.cpp.obj.ddi.i
 
 build CMakeFiles\pathtracing.dir\src\scene.cpp.obj: CXX_COMPILER__pathtracing_scanned_Debug C$:\Users\wvanw\CLionProjects\pathtracing\src\scene.cpp | CMakeFiles\pathtracing.dir\src\scene.cpp.obj.modmap || cmake_object_order_depends_target_pathtracing CMakeFiles\pathtracing.dir\CXX.dd
   DYNDEP_MODULE_MAP_FILE = CMakeFiles\pathtracing.dir\src\scene.cpp.obj.modmap
   FLAGS = /DWIN32 /D_WINDOWS /EHsc /Ob0 /Od /RTC1 -std:c++latest -MDd -Zi
-  INCLUDES = -IC:\Users\wvanw\CLionProjects\pathtracing\external\glm -IC:\Users\wvanw\CLionProjects\pathtracing\include
+  INCLUDES = -IC:\Users\wvanw\CLionProjects\pathtracing\external\glm -IC:\Users\wvanw\CLionProjects\pathtracing\external\stb -IC:\Users\wvanw\CLionProjects\pathtracing\include
   OBJECT_DIR = CMakeFiles\pathtracing.dir
   OBJECT_FILE_DIR = CMakeFiles\pathtracing.dir\src
   TARGET_COMPILE_PDB = CMakeFiles\pathtracing.dir\

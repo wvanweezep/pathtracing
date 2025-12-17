@@ -8,11 +8,13 @@
 
 
 class Image {
-    const glm::ivec2 _size;
+    glm::ivec2 _size{};
     std::vector<Color> _pixels;
 
 public:
     Image(int width, int height) : _size(width, height), _pixels(width * height) {}
+
+    explicit Image(const std::string& path);
 
     [[nodiscard]] glm::ivec2 size() const {
         return _size;
