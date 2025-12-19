@@ -8,8 +8,8 @@
 
 
 int main() {
-    constexpr int width = 2560;
-    constexpr int height = 1440;
+    constexpr int width =  800;
+    constexpr int height = 600;
     Image image(width, height);
 
     std::cout << "Start loading hdri texture... ";
@@ -24,7 +24,7 @@ int main() {
     Scene scene(camera, std::move(objects));
 
     std::cout << "Start rendering... ";
-    scene.render(image, 4);
+    scene.render(image, 16);
     std::cout << "FINISHED\n";
 
     std::cout << "Start writing output... ";

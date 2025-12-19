@@ -19,13 +19,15 @@ bool Scene::collide(const Ray &ray, float tMin, float tMax, HitInfo &hitInfo) co
     return hitInfo.t < tMax;
 }
 
-glm::vec3 Scene::trace(const Ray& ray) const {
+glm::vec3 Scene::trace(const Ray& ray, int depth) const {
+    if (depth > 16) return {0, 0, 0};
+
     HitInfo hitInfo{};
 
     if (!collide(ray, 0.001f, 1000.0f, hitInfo))
         return _camera.rayToColor(ray).rgb();
 
-    return trace(Ray(hitInfo.point + hitInfo.normal * 0.001f, glm::reflect(ray.direction(), hitInfo.normal))) * .8f;
+    return trace(Ray(hitInfo.point + hitInfo.normal * 0.001f, glm::reflect(ray.direction(), hitInfo.normal)), depth + 1) * .8f;
 }
 
 void Scene::render(Image& output, int samples) const {
@@ -35,9 +37,9 @@ void Scene::render(Image& output, int samples) const {
             for (int i = 0; i < samples; i++) {
                 auto ray = _camera.pixelToRay(x, y);
                 ray.set(ray.origin() +
-                    (glm::vec3(dist(rng), dist(rng), dist(rng)) - glm::vec3(0.5f)) * 0.001f, // random offset for anti alliasing
+(glm::vec3(dist(rng), dist(rng), dist(rng)) - glm::vec3(0.5f)) * 0.001f                    , // random offset for anti alliasing
                     ray.direction());
-                colorVal += trace(ray);
+                colorVal += trace(ray, 0);
             }
             colorVal /= samples;
             output.setPixel(x, y, Color(colorVal));

@@ -34,7 +34,7 @@ class Scene {
      * @param ray ray to trace
      * @return rgb value found by the ray
      */
-    [[nodiscard]] glm::vec3 trace(const Ray& ray) const;
+    [[nodiscard]] glm::vec3 trace(const Ray& ray, int depth) const;
 
 public:
     /**
